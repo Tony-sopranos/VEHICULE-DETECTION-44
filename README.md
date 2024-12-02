@@ -5,6 +5,7 @@ Project Objectives:
 This project aims to develop a real-time detection system capable of identifying a wide range of transport modes, including:
 
 Cars
+![alt text](image.png)
 Buses
 Motorcycles
 Boats
@@ -49,15 +50,14 @@ Source Code:
 The source code for the transport mode detection project is organized in a clear and modular structure. Below is a suggested file structure for the project:
 
 vehicle-and-detection/
-├── data/                    # Dataset directory (e.g., YOLOv4 weights, coco.names)
-│   ├── yolov4.weights        # Pretrained weights for YOLOv4
-│   ├── yolov4.cfg            # YOLOv4 configuration file
-│   ├── coco.names            # List of classes used by YOLOv4 (e.g., vehicle types)
-├── src/                     # Source code
-│   ├── detection.py          # Main detection script
-│   
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies for the project
+data/                    # Dataset directory (e.g., YOLOv4 weights, coco.names)
+yolov4.weights        # Pretrained weights for YOLOv4
+yolov4.cfg            # YOLOv4 configuration file
+coco.names            # List of classes used by YOLOv4 (e.g., vehicle types)
+
+detection.py          # Main detection script
+README.md                # Project documentation
+
 
 Key Files:
 
