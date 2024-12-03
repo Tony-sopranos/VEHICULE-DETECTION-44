@@ -60,7 +60,7 @@ yolov4.weights        # Pretrained weights for YOLOv4
 
 yolov4.cfg            # YOLOv4 configuration file
 
-coco.names            # List of classes used by YOLOv4 (e.g., vehicle types)
+full.names            # List of classes used by YOLOv4 (e.g., vehicle types)
 
 
 detection.py          # Main detection script
