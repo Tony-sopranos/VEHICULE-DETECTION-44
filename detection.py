@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import psutil
 
-
 process = psutil.Process()
 memory_used = process.memory_info().rss / (1024 * 1024)  # Convertir en MB
 print(f"Memory used: {memory_used:.2f} MB")
