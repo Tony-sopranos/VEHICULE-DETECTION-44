@@ -5,7 +5,6 @@ Project Objectives:
 This project aims to develop a real-time detection system capable of identifying a wide range of transport modes, including:
 
 Cars
-![](images/car.png)
 Buses
 Motorcycles
 Boats
@@ -13,6 +12,8 @@ Trains
 Airplanes
 Bicycles
 The model utilizes the YOLOv4 (You Only Look Once) algorithm, known for its high performance, speed, and efficiency in object detection in complex environments.
+
+![](images/car.png)
 
 Motivation and Context:
 
