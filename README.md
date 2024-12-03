@@ -78,6 +78,16 @@ Model accuracy:
 
 ![](images/perf.png)
 
+Execution speed :
+
+calculated with time, giving an average of around 30 fps:
+
+![](images/fps.png)
+
+Memory used (with psutil) :
+
+![](images/memory.png)
+
 
 Library to download:
 
@@ -97,12 +107,19 @@ Installation and Usage:
 
 - Download the YOLOv4 weights
 
+https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
+
 - Run detection.py
 
 References and Documentation:
 
 -YOLOv4 Paper
+
 -YOLO Website
+
+-https://www.youtube.com/watch?v=FppOzcDvaDI&t=267s&ab_channel=AladdinPersson
+
+
 
 Issues and Contributions:
 
