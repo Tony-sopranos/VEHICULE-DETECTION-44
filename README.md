@@ -5,7 +5,7 @@ Project Objectives:
 This project aims to develop a real-time detection system capable of identifying a wide range of transport modes, including:
 
 Cars
-![alt text](image.png)
+![](images/cars.png)
 Buses
 Motorcycles
 Boats
