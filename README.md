@@ -5,7 +5,6 @@ Project Objectives:
 This project aims to develop a real-time detection system capable of identifying a wide range of transport modes, including:
 
 Cars
-![](images/cars.png)
 Buses
 Motorcycles
 Boats
@@ -13,6 +12,8 @@ Trains
 Airplanes
 Bicycles
 The model utilizes the YOLOv4 (You Only Look Once) algorithm, known for its high performance, speed, and efficiency in object detection in complex environments.
+
+![](images/car.png)
 
 Motivation and Context:
 
@@ -46,16 +47,24 @@ High-Performance Technology: By using a proven model like YOLOv4 and accessible 
 
 This system demonstrates the effectiveness of modern deep learning algorithms applied to real-world and complex problems, with potential applications in key sectors such as transportation, logistics, and smart surveillance.
 
+
 Source Code:
+
 The source code for the transport mode detection project is organized in a clear and modular structure. Below is a suggested file structure for the project:
 
 vehicle-and-detection/
-data/                    # Dataset directory (e.g., YOLOv4 weights, coco.names)
+
+data/                    # Dataset directory (e.g., YOLOv4 weights, full.names)
+
 yolov4.weights        # Pretrained weights for YOLOv4
+
 yolov4.cfg            # YOLOv4 configuration file
+
 coco.names            # List of classes used by YOLOv4 (e.g., vehicle types)
 
+
 detection.py          # Main detection script
+
 README.md                # Project documentation
 
 
@@ -63,18 +72,31 @@ Key Files:
 
 detection.py: This is the main file that runs the vehicle detection using YOLOv4. It processes input images or video streams, performs object detection, and displays results.
 
+Project performance measures
+
+Model accuracy:
+
+![](images/perf.png)
+
+
 Library to download:
 
 opencv-python (OpenCV for computer vision tasks)
+
 numpy (Used for array manipulation)
+
 psutil (For memory usage tracking)
+
 matplotlib (For plotting results, optional)
 
 Installation and Usage:
 
 - Clone the repository
+
 - Set up the virtual environment and dowload the libabry or just download
+
 - Download the YOLOv4 weights
+
 - Run detection.py
 
 References and Documentation:
